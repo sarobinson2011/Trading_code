@@ -1,0 +1,43 @@
+*************************************************************************
+*********** The Greeks -> Definitions (Black Scholes formula) ***********
+*************************************************************************
+
+#1 --> Delta  (Equity exposure):
+
+Delta measures the rate of change of the theoretical option value with respect to a change in the underlying asset price.
+
+
+#2 --> Gamma  (Payout convexity):
+
+Gamma measures the rate of change in the delta with respect to changes in the underlying asset price.
+
+
+#3 --> Vega  (Volatility exposure):
+
+Vega measures sensitivity to volatility. Vega is the derivative of the option value with respect to the underlying asset price.
+
+
+#4 --> Theta  (Time decay):
+
+Theta measures the sensitivity of the time value of the derivative to the passage of time i.e. time decay.
+
+
+#5 --> Rho  (Interest rate exposure):
+
+Rho measures the sensitivity of the value to the interest rate.
+
+
+
+
+*************************************************************************
+***********   Second Order Greeks ->    (Black Scholes formula) *********
+*************************************************************************
+
+#6 --> Vanna  (Skew):
+
+Vanna measures the change in Vega due to spot OR change in Delta due to volatility
+
+
+#7 --> Charm  (Kurtosis???)
+
+Charm measures the change in Delta due to time passing (Theta???)
